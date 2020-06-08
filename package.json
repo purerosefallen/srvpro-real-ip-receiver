@@ -1,0 +1,27 @@
+{
+  "name": "srvpro-real-ip-receiver",
+  "version": "1.0.0",
+  "description": "An SRVPro plugin receiving real IP from proxy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purerosefallen/srvpro-real-ip-receiver.git"
+  },
+  "keywords": [
+    "srvpro",
+    "ygopro"
+  ],
+  "author": "Nanahira",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/purerosefallen/srvpro-real-ip-receiver/issues"
+  },
+  "homepage": "https://github.com/purerosefallen/srvpro-real-ip-receiver#readme",
+  "dependencies": {
+    "ip": "^1.1.5",
+    "underscore": "^1.10.2"
+  }
+}
