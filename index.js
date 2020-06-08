@@ -4,7 +4,7 @@ const fs = require("fs");
 const config = require("./config.json");
 const IP = require("ip");
 
-ygopro.constants.STOC[49] = "X_FORWARDED_FOR";
+ygopro.constants.CTOS[49] = "X_FORWARDED_FOR";
 
 const trustedSubnets = config.setRealIPFrom.map((subnet) => {
 	if (subnet.includes("/")) {
