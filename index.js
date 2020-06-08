@@ -10,7 +10,7 @@ const trustedSubnets = config.setRealIPFrom.map((subnet) => {
 	if (subnet.includes("/")) {
 		return IP.cidrSubnet(subnet);
 	} else {
-		return IP.subnet(subnet, ip.fromPrefixLen(32));
+		return IP.subnet(subnet, IP.fromPrefixLen(32));
 	}	
 });
 
